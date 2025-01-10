@@ -1,86 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <link rel="stylesheet" href="../Css/reset.css" />
-    <link rel="stylesheet" href="../Css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
-    />
-  </head>
-  <body class="bodySign">
-    <div class="bordermain">
-      <div class="contentne">
-        <div class="login">
-          <p class="signe">Log up</p>
-          <p class="ctn">to your account</p>
-        </div>
-        <div class="password">
-          <input id="email" type="text" placeholder="Email" />
-          <input id="password" type="password" placeholder="Password" />
-          <input id="Re-Password" type="password" placeholder="Re-Password" />
-          <button id="btn-login">REGISTER</button>
-        </div>
-        <p class="logupne">
-          If you have had account, Sign in <a href="./SignIn.html">here</a>
-        </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TRAVEL</title>
+  <link rel="stylesheet" href="../Css/reset.css" />
+  <link rel="stylesheet" href="../Css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+</head>
+
+<body class="bodySign">
+  <div class="bordermain">
+    <div class="contentne">
+      <div class="login">
+        <p class="signe">Log up</p>
+        <p class="ctn">to your account</p>
       </div>
-      <div class="contenttranh">
-        <img
-          class="imgne"
-          src="../picture/ben-o-bro-wpU4veNGnHg-unsplash.jpg"
-          alt=""
-        />
-        <div class="tienich">
-          <p class="signe lala">Sign up</p>
-          <p class="ctn lala">with your social profiles</p>
-          <div class="profiles">
-            <i
-              class="fa-brands fa-square-x-twitter"
-              style="color: rgb(255, 204, 146)"
-            ></i>
-            <i
-              class="fa-brands fa-square-facebook"
-              style="color: rgb(255, 203, 143)"
-            ></i>
-            <i
-              class="fa-brands fa-instagram"
-              style="color: rgb(255, 196, 129)"
-            ></i>
-          </div>
+      <div class="password">
+        <input id="email" type="text" placeholder="Email" />
+        <input id="password" type="password" placeholder="Password" />
+        <input id="Re-Password" type="password" placeholder="Re-Password" />
+        <button id="btn-login">REGISTER</button>
+      </div>
+      <p class="logupne">
+        If you have had account, Sign in <a href="./SignIn.html">here</a>
+      </p>
+    </div>
+    <p class="or">OR</p>
+    <div class="contenttranh">
+      <img class="imgne" src="../picture/ben-o-bro-wpU4veNGnHg-unsplash.jpg" alt="" />
+      <div class="tienich">
+        <p class="signe lala">Sign up</p>
+        <p class="ctn lala">with your social profiles</p>
+        <div class="profiles">
+          <i class="fa-brands fa-square-x-twitter" style="color: rgb(255, 204, 146)"></i>
+          <i class="fa-brands fa-square-facebook" style="color: rgb(255, 203, 143)"></i>
+          <i class="fa-brands fa-instagram" style="color: rgb(255, 196, 129)"></i>
         </div>
       </div>
     </div>
-    <p class="or">OR</p>
-    <script
-      defer
-      src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"
-    ></script>
+  </div>
 
-    <script
-      defer
-      src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"
-    ></script>
-    <script
-      defer
-      src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"
-    ></script>
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 
-    <script defer src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script defer src="../js/config.js" type="module"></script>
-    <script defer src="../Js/SignUp.js" type="module"></script>
-  </body>
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script defer src="../js/config.js" type="module"></script>
+  <script defer src="../Js/SignUp.js" type="module"></script>
+</body>
+
 </html>
